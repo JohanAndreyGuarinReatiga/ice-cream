@@ -288,6 +288,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        backdrop-filter: blur(3px)
+        backdrop-filter: blur(3px);
+        outline: none;
     }
 }
