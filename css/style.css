@@ -292,3 +292,64 @@ main{
         outline: none;
     }
 }
+
+.section__container-products {
+    background: violet;
+    display: flex;
+    flex-direction: column;
+}
+.div__trendy {
+    h2{
+
+    }
+    img{
+
+    }
+}
+.article__products{
+    background: green;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 52px;
+    row-gap: 59px;
+    img{
+
+    }
+
+}
+.form__container-product{
+    background: orange;
+    width: 690px;
+    height: 324px;
+    img{
+
+    }
+}
+
+.div__product {
+
+    h3{
+
+    }
+    label{
+
+    }
+}
+
+.div__type-order {
+    
+    
+
+}
+.div__type-order input[type="submit"]{
+
+}
+
+.div__product-amount {
+
+
+}
+.div__product-amount input[type="number"]{
+
+}
