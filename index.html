@@ -113,10 +113,10 @@
                 <div class="div__choose-type">
                     <h3>Choose Type:</h3>
                     <div class="div__choose-type-buttons">
-                        <a href="#"><img src="#"></a>
-                        <a href="#"><img src="#"></a>
-                        <a href="#"><img src="#"></a>
-                        <a href="#"><img src="#"></a>
+                        <a href="#"><img src="/storage/img/ice-cream-cup(1).png"></a>
+                        <a href="#"><img src="/storage/img/ice-cream-cup(2).png"></a>
+                        <a href="#"><img src="/storage/img/ice-cream-cone(2).png"></a>
+                        <a href="#"><img src="/storage/img/add(1).png"></a>
                     </div>
                 </div>
             </article>
@@ -124,7 +124,7 @@
         <section class="section__container-products">
             <div class="div__trendy">
                 <h2>Trendy</h2>
-                <img src="">
+                <img src="/storage/img/fire 2.png">
             </div>
             <article class="article__products">
                 <form action="?" method="get" class="form__container-product">
@@ -138,7 +138,11 @@
                         </div>
                         <div class="div__product-amount">
                             <label>Rs. 199/-</label>
-                            <input type="number" name="amount" value="0">
+                            <div class="div__product-amount-input">
+                                <button type="button" class="decrement">-1</button>
+                                <input type="number" name="amount" value="0" min="0">
+                                <button type="button" class="increment">+1</button>
+                            </div>
                         </div>
                     </div>
                 </form>
